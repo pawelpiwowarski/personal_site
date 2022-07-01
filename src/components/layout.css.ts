@@ -2,11 +2,25 @@ import { style } from '@vanilla-extract/css';
 
 const container = style({
 margin: 'auto',
-maxWidth: '500px',
-fontFamily: 'sans-serif'
+maxWidth: '1000px',
+color: 'black',
+fontFamily: 'fantasy',
+
+
 }
   )
 
+  const menubar =  style({
+    margin: 'auto',
+    maxWidth: '1000px',
+    color: 'black',
+    fontFamily: 'fantasy',
+    backgroundColor: '#674ea7',
+
+    
+    
+    }
+      )
 const heading = style({
   color: 'rebeccapurple'
 })
@@ -27,7 +41,7 @@ const nav_link_text = style({
 
 const site_tile = style({
   fontSize: '3rem',
-  color: 'gray',
+  color: 'black',
   fontWeight: 700,
   margin: '3rem 0'
 })
@@ -48,4 +62,4 @@ const footer_ul = style({
   justifyItems: 'center',
   margin: 'auto'
 })
-export {site_tile,container, heading, nav_link, nav_link_item, nav_link_text, footer, footer_ul}
+export {menubar, site_tile,container, heading, nav_link, nav_link_item, nav_link_text, footer, footer_ul}
