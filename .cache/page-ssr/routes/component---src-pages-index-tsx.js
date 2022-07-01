@@ -14787,6 +14787,9 @@ const ResponsiveAppBar = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     disableGutters: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_icons_material_IntegrationInstructions__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    onClick: () => {
+      (0,gatsby__WEBPACK_IMPORTED_MODULE_1__.navigate)("/");
+    },
     sx: {
       display: {
         xs: 'none',
@@ -14809,14 +14812,6 @@ const ResponsiveAppBar = () => {
       fontWeight: 700,
       letterSpacing: '.10rem',
       textDecoration: 'none'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    sx: {
-      flexGrow: 1,
-      display: {
-        xs: 'flex',
-        md: 'none'
-      }
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sx: {
