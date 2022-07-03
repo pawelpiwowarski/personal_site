@@ -14,14 +14,13 @@ const IndexPage: React.FC = ()=> {
       <div className='example-container'>
         <motion.div
           animate={{
-            scale: [1, 2, 4, 1, 1],
-            rotate: [0, 0, 180, 180, 0],
+            x: 30,
             borderRadius: ["20%", "20%", "50%", "50%", "20%"]
           }}
           transition={{
 
             duration: 1,
-            ease: "linear",
+            ease: "anticipate",
             times: [0, 0.2, 0.5, 0.8, 1],
             repeat: 0,
             repeatDelay: 1

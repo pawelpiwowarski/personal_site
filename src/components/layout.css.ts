@@ -5,6 +5,9 @@ margin: 'auto',
 maxWidth: '1000px',
 color: 'black',
 fontFamily: 'fantasy',
+paddingTop: "175px"
+
+
 
 
 }
